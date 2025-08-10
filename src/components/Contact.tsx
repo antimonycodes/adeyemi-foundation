@@ -34,15 +34,15 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
-                <Mail className="h-6 w-6 text-red-600 mt-1" />
+                <Mail className="h-6 w-6 text-blue-600 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Email Us</h4>
-                  <p className="text-gray-600">info@adeyemirelief.org</p>
+                  <p className="text-gray-600">adelekeadeyemi718@gmail.com</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
-                <Phone className="h-6 w-6 text-red-600 mt-1" />
+                <Phone className="h-6 w-6 text-indigo-600 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Call Us</h4>
                   <p className="text-gray-600">+2349031705537</p>
@@ -50,13 +50,13 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <MapPin className="h-6 w-6 text-red-600 mt-1" />
+                <MapPin className="h-6 w-6 text-yellow-600 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Visit Us</h4>
                   <p className="text-gray-600">
-                    ibadan
+                    Ibadan
                     <br />
-                    Oyo state, Nigeria
+                    Oyo State, Nigeria
                   </p>
                 </div>
               </div>
@@ -67,21 +67,21 @@ const Contact = () => {
                   <Button
                     size="icon"
                     variant="outline"
-                    className="rounded-full"
+                    className="rounded-full border-blue-600 text-blue-600 hover:bg-blue-50"
                   >
                     <Facebook className="h-4 w-4" />
                   </Button>
                   <Button
                     size="icon"
                     variant="outline"
-                    className="rounded-full"
+                    className="rounded-full border-indigo-600 text-indigo-600 hover:bg-indigo-50"
                   >
                     <Twitter className="h-4 w-4" />
                   </Button>
                   <Button
                     size="icon"
                     variant="outline"
-                    className="rounded-full"
+                    className="rounded-full border-yellow-600 text-yellow-600 hover:bg-yellow-50"
                   >
                     <Instagram className="h-4 w-4" />
                   </Button>
@@ -100,31 +100,41 @@ const Contact = () => {
                     <label className="text-sm font-medium text-gray-700 mb-2 block">
                       First Name
                     </label>
-                    <Input placeholder="John" />
+                    <Input
+                      placeholder="John"
+                      className="focus:border-blue-600 focus:ring-blue-600"
+                    />
                   </div>
                   <div>
                     <label className="text-sm font-medium text-gray-700 mb-2 block">
                       Last Name
                     </label>
-                    <Input placeholder="Doe" />
+                    <Input
+                      placeholder="Doe"
+                      className="focus:border-blue-600 focus:ring-blue-600"
+                    />
                   </div>
                 </div>
                 <div>
                   <label className="text-sm font-medium text-gray-700 mb-2 block">
                     Email
                   </label>
-                  <Input type="email" placeholder="john@example.com" />
+                  <Input
+                    type="email"
+                    placeholder="john@example.com"
+                    className="focus:border-blue-600 focus:ring-blue-600"
+                  />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-gray-700 mb-2 block">
                     Message
                   </label>
                   <textarea
-                    className="w-full p-3 border border-gray-300 rounded-md resize-none h-32"
+                    className="w-full p-3 border border-gray-300 rounded-md resize-none h-32 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none"
                     placeholder="Tell us how we can help..."
                   />
                 </div>
-                <Button className="w-full bg-red-600 hover:bg-red-700">
+                <Button className="w-full bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
                   Send Message
                 </Button>
               </CardContent>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Button } from "../ui/button";
-// import { Heart } from "lucide-react";
 import logo from "../assets/logo.jpg";
 
 const Nav = () => {
@@ -20,29 +19,31 @@ const Nav = () => {
           <nav className="hidden md:flex items-center space-x-6">
             <Link
               to="about"
-              className="text-sm font-medium hover:text-red-600 transition-colors"
+              className="text-sm font-medium hover:text-blue-600 transition-colors"
             >
               About
             </Link>
             <Link
               to="programs"
-              className="text-sm font-medium hover:text-red-600 transition-colors"
+              className="text-sm font-medium hover:text-indigo-600 transition-colors"
             >
               Programs
             </Link>
             <Link
               to="impact"
-              className="text-sm font-medium hover:text-red-600 transition-colors"
+              className="text-sm font-medium hover:text-yellow-600 transition-colors"
             >
               Impact
             </Link>
             <Link
               to="contact"
-              className="text-sm font-medium hover:text-red-600 transition-colors"
+              className="text-sm font-medium hover:text-blue-600 transition-colors"
             >
               Contact
             </Link>
-            <Button className="bg-red-600 hover:bg-red-700">Donate Now</Button>
+            <Button className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
+              Donate Now
+            </Button>
           </nav>
         </div>
       </header>

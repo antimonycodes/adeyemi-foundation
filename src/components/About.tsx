@@ -15,7 +15,6 @@ const About = () => {
             and society through compassionate action and sustainable support.
           </p>
         </div>
-
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
@@ -32,7 +31,7 @@ const About = () => {
             </h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <Heart className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
+                <Heart className="h-6 w-6 text-yellow-600 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Compassion</h4>
                   <p className="text-gray-600">
@@ -41,7 +40,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <Users className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
+                <Users className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Community</h4>
                   <p className="text-gray-600">
@@ -50,7 +49,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <HandHeart className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
+                <HandHeart className="h-6 w-6 text-indigo-600 mt-1 flex-shrink-0" />
                 <div>
                   <h4 className="font-semibold text-gray-900">Integrity</h4>
                   <p className="text-gray-600">

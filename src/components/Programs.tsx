@@ -32,8 +32,8 @@ const Programs = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
             <CardHeader className="text-center pb-4">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-red-600" />
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="h-8 w-8 text-blue-600" />
               </div>
               <CardTitle className="text-xl">Widow Empowerment</CardTitle>
             </CardHeader>
@@ -47,8 +47,8 @@ const Programs = () => {
 
           <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
             <CardHeader className="text-center pb-4">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Stethoscope className="h-8 w-8 text-red-600" />
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Stethoscope className="h-8 w-8 text-blue-600" />
               </div>
               <CardTitle className="text-xl">Medical Support</CardTitle>
             </CardHeader>
@@ -62,8 +62,8 @@ const Programs = () => {
 
           <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
             <CardHeader className="text-center pb-4">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <GraduationCap className="h-8 w-8 text-red-600" />
+              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <GraduationCap className="h-8 w-8 text-yellow-600" />
               </div>
               <CardTitle className="text-xl">Education Support</CardTitle>
             </CardHeader>
@@ -77,8 +77,8 @@ const Programs = () => {
 
           <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
             <CardHeader className="text-center pb-4">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <DollarSign className="h-8 w-8 text-red-600" />
+              <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <DollarSign className="h-8 w-8 text-indigo-600" />
               </div>
               <CardTitle className="text-xl">Income Support</CardTitle>
             </CardHeader>
@@ -92,8 +92,8 @@ const Programs = () => {
 
           <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
             <CardHeader className="text-center pb-4">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <HandHeart className="h-8 w-8 text-red-600" />
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <HandHeart className="h-8 w-8 text-blue-600" />
               </div>
               <CardTitle className="text-xl">Community Care</CardTitle>
             </CardHeader>
@@ -105,12 +105,12 @@ const Programs = () => {
             </CardContent>
           </Card>
 
-          <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-red-50">
+          <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-gradient-to-br from-indigo-50 to-blue-50">
             <CardHeader className="text-center pb-4">
-              <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-r from-indigo-600 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="h-8 w-8 text-white" />
               </div>
-              <CardTitle className="text-xl text-red-600">
+              <CardTitle className="text-xl text-indigo-600">
                 Join Our Mission
               </CardTitle>
             </CardHeader>
@@ -119,7 +119,7 @@ const Programs = () => {
                 Your support can help us expand our reach and impact more lives
                 in our community.
               </CardDescription>
-              <Button className="bg-red-600 hover:bg-red-700 w-full">
+              <Button className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 w-full">
                 Get Involved
               </Button>
             </CardContent>
